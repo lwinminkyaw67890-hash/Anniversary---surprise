@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Love Story ❤️</title>
+
+<style>
+body {
+  background: linear-gradient(135deg, #ffd6e7, #ffe9f2);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #7b2348;
+  padding: 30px 10px;
+}
+
+.card {
+  background: white;
+  max-width: 350px;
+  margin: auto;
+  padding: 25px 15px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px #e7a5c4;
+}
+
+.heart {
+  font-size: 65px;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  50% { transform: scale(1.2); }
+}
+
+button {
+  background: #e75480;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#letter {
+  display: none;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+
+<div class="heart">❤️</div>
+
+<h1>Hey My Love 💕</h1>
+<p>မင်းအတွက် Surprise လေးတစ်ခုရှိတယ်...</p>
+
+<button onclick="openLetter()">
+Open Your Surprise 💌
+</button>
+
+<div id="letter">
+<h2>Happy Anniversary! 🥰</h2>
+
+<p>
+မင်းနဲ့တွေ့ခဲ့ရတာ ငါ့ဘဝရဲ့
+အလှဆုံးအမှတ်တရလေးပါ။
+</p>
+
+<p>
+မင်းရဲ့အပြုံးလေးတွေက
+ငါ့ရဲ့နေ့ရက်တွေကို ပျော်ရွှင်စေတယ်။
+</p>
+
+<p>
+အနာဂတ်မှာလည်း မင်းနဲ့အတူ
+အမှတ်တရလေးတွေ အများကြီး
+ဖန်တီးချင်တယ်။ ❤️
+</p>
+
+<h2>I Love You Forever 💖</h2>
+</div>
+
+</div>
+
+<script>
+function openLetter() {
+  document.getElementById("letter").style.display = "block";
+}
+</script>
+</body>
+</html>
